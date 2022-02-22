@@ -274,6 +274,7 @@ img{
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 
@@ -341,7 +342,7 @@ img{
 /*----------------------CONTACT----------------------*/
 #contact {
   background-color: antiquewhite;
-  min-height: 300px;
+  min-height: 350px;
 }
 .item-box {
     display: flex;
