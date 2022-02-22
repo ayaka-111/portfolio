@@ -266,6 +266,7 @@ img{
     font-weight: bold;
     color: teal;
     text-align: center;
+    margin: 0;
 }
 .sec-title p {
     font-size: 1.5rem;
@@ -530,6 +531,16 @@ small{
         margin: 0;
         padding: 0;*/
       }
+      /*----contact2------*/
+      #contact2 .page-title {
+          margin-top: 40px;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+          max-width: 100%;
+      }
+      
 
 
   }/*@media*/
