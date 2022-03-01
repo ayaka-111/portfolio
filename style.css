@@ -289,7 +289,10 @@ img{
     list-style-type: none;
 }
 .profile-list li{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+}
+.profile-obj {
+    font-size: 1.2rem;
 }
 .icon img{
     width: 300px;
