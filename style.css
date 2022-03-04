@@ -291,6 +291,7 @@ img{
 }
 .profile-list li{
     font-size: 1rem;
+    color: teal;
 }
 .icon {
     width: auto;
@@ -333,7 +334,7 @@ img{
     width: 350px;
     height: 170px;
     cursor: pointer;
-    text-align: center;
+    align-items: center;
     /*margin-left: 20%;*/
 }
 .portfolio-title {
