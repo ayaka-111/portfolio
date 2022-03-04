@@ -318,11 +318,12 @@ img{
 
 .portfolio {
     display: flex;
+    justify-content: space-around;
     /*flex-direction: row;*/
 }
 .portfolio-item {
     /*border: 1px solid #ddd;*/
-    width: 60%;
+    width: 350px;
     height: auto;
     margin: 20px auto 0;
     transition-duration: 0.5s;
