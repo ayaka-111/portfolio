@@ -289,7 +289,7 @@ img{
     list-style-type: none;
 }
 .profile-list li{
-    font-size: 1.rem;
+    font-size: 1rem;
 }
 .icon {
     width:auto;
@@ -336,7 +336,7 @@ img{
 }
 .portfolio-list {
     list-style-type: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .portfolio-item img:hover{
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
