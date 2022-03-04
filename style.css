@@ -284,6 +284,7 @@ img{
     justify-content: center;
     padding-top: 10%;
     gap: 5%;
+    padding-top: 0;
 }
 .profile-list {
     list-style-type: none;
