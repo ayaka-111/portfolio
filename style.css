@@ -330,7 +330,7 @@ img{
     transition-duration: 0.5s;
     color: antiquewhite;
 }
-.portfolio-item img{
+.portfolio-img{
     width: 350px;
     height: 170px;
     cursor: pointer;
@@ -344,7 +344,7 @@ img{
     list-style-type: none;
     font-size: 1rem;
 }
-.portfolio-item img:hover{
+.portfolio-img:hover{
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     transform: translateY(-10px);
     transition-duration: 0.5s;
@@ -533,7 +533,7 @@ small{
       .portfolio-img {
         width: 80%;
         height: 54%;
-        margin-left: 20%;
+        margin-left: 10%;/*20%*/
         /*position: absolute;
         top: 10%;
         left: 50%;
