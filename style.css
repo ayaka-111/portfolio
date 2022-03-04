@@ -294,6 +294,7 @@ img{
 .icon {
     width: auto;
     height: auto;
+    flex-grow: 1;
 }
 .icon img{
     width: 300px;
@@ -302,7 +303,9 @@ img{
     object-fit: cover;
     object-position: 36% 54%;
 }
-
+.self {
+    flex-grow: 3;
+}
 
 /*----------------------WORKS----------------------*/
 #works {
