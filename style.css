@@ -335,8 +335,7 @@ img{
     width: 350px;
     height: 170px;
     cursor: pointer;
-    align-items: center;
-    /*margin-left: 20%;*/
+    margin-left: 18%;
 }
 .portfolio-title {
     font-size: 1.3rem;
