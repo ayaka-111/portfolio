@@ -288,10 +288,11 @@ img{
 }
 .profile-list {
     list-style-type: none;
+    color: teal;
 }
 .profile-list li{
     font-size: 1rem;
-    color: teal;
+    
 }
 .icon {
     width: auto;
