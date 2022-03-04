@@ -332,13 +332,13 @@ img{
 }
 .portfolio-item img{
     width: 350px;
-    height: auto;
+    height: 200px;
     cursor: pointer;
     margin-left: 20%;
 }
 .portfolio-title {
     font-size: 1.3rem;
-    
+    margin-left: 25%;    
 }
 .portfolio-list {
     list-style-type: none;
