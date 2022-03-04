@@ -291,6 +291,9 @@ img{
 .profile-list li{
     font-size: 1.rem;
 }
+.icon {
+    width:auto;
+}
 .icon img{
     width: 300px;
     height: 300px;
