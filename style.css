@@ -292,7 +292,8 @@ img{
     font-size: 1rem;
 }
 .icon {
-    width:auto;
+    width: auto;
+    height: auto;
 }
 .icon img{
     width: 300px;
