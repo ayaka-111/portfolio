@@ -295,7 +295,6 @@ img{
 .icon {
     width: auto;
     height: auto;
-    flex-grow: 1;
 }
 .icon img{
     width: 300px;
@@ -305,7 +304,7 @@ img{
     object-position: 36% 54%;
 }
 .self {
-    flex-grow: 3;
+    width: 80%;
 }
 
 /*----------------------WORKS----------------------*/
@@ -334,7 +333,8 @@ img{
     width: 350px;
     height: 170px;
     cursor: pointer;
-    margin-left: 20%;
+    text-align: center;
+    /*margin-left: 20%;*/
 }
 .portfolio-title {
     font-size: 1.3rem;
