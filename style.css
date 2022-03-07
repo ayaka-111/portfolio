@@ -3,25 +3,22 @@
 html {
     font-size: 100%;
 }
-body{
-    font-family:"Yu Gothic Medium", "遊ゴシック Medium", YuGothic, "遊ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+body {
+    font-family: "Yu Gothic Medium", "遊ゴシック Medium", YuGothic, "遊ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
 }
-a{
+a {
     text-decoration: none;
 }
-img{
+img {
    max-width: 100%;
 }
 .wrapper {
-    /*max-width: 1200px;*/
     margin: 0 auto;
     padding: 0 4%;
-  }
+}
 /*========= LoadingのためのCSS ===============*/
-
 /* Loading背景画面設定　*/
-
 #splash {
     /*fixedで全面に固定*/
     position: fixed;
@@ -29,10 +26,9 @@ img{
     width: 100%;
     height: 100%;
     background: #333;
-    text-align:center;
-    color:#fff;
+    text-align: center;
+    color: #fff;
 }
-
 /* Loadingバー中央配置　*/
 #splash_text {
     position: absolute;
@@ -44,13 +40,11 @@ img{
     color: #fff;
 }
 /*=============ハンバーガーメニュー======================*/
-.page-header{
+.page-header {
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    /*height: 40px;*/
-    /*background-color: #fff;*/
     box-shadow: 0 2px 6px rgba(0,0,0,.16);
 }
 .nav {
@@ -146,39 +140,32 @@ img{
 }
 
 
-
-
-
-  /*-----------------home----------------------------*/
+/*-----------------home----------------------------*/
 .logo {
-    width: 650px;  /*60px*/
-    /*margin-top: 14px;*/
-    /*margin-top: -10%;     いらなくなった？*/
+    width: 650px;
 }
 
 /*===============スクロールダウン全体の場所==============*/
-.scrolldown{
-    /*描画位置※位置は適宜調整してください*/
-    position:absolute;
-    bottom:1%;
-    right:50%;
+.scrolldown {
+    /*描画位置*/
+    position: absolute;
+    bottom: 1%;
+    right: 50%;
     /*矢印の動き1秒かけて永遠にループ*/
     animation: arrowmove 1s ease-in-out infinite;
 }
-
 /*下からの距離が変化して全体が下→上→下に動く*/
-@keyframes arrowmove{
+@keyframes arrowmove {
     0%{bottom:1%;}
     50%{bottom:3%;}
     100%{bottom:1%;}
- }
-
+}
 /*Scrollテキストの描写*/
-.scrolldown span{
+.scrolldown span {
     /*描画位置*/
     position: absolute;
-    left:-20px;
-    bottom:10px;
+    left: -20px;
+    bottom: 10px;
     /*テキストの形状*/
     color: #eee;
     font-size: 1rem;
@@ -188,7 +175,6 @@ img{
     -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
 }
-
 /* 矢印の描写 */
 .scrolldown:before {
     content: "";
@@ -202,39 +188,29 @@ img{
     background: #eee;
     transform: skewX(-31deg);
 }
-
-.scrolldown:after{
+.scrolldown:after {
     content:"";
     /*描画位置*/
     position: absolute;
-    bottom:0;
-    right:0;
+    bottom: 0;
+    right: 0;
     /*矢印の形状*/
-    width:1px;
+    width: 1px;
     height: 50px;
-    background:#eee;
+    background: #eee;
 }
-
-
-.home-content{
+.home-content {
     text-align: center;
-    /*margin-top: 0%;*/
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
  }
-/*.page-title{
-    font-size: 5.5rem;
-    font-family: "Philosopher", serif;
-    text-transform: capitalize;
-    font-weight: bold;
-    color: teal;
-  }*/
 
-  /*==============背景===========================*/
-  .big-bg {  /*背景*/
+
+ /*==============背景===========================*/
+.big-bg {  /*背景*/
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -242,20 +218,10 @@ img{
     background-image: url(images/home1.jpg);
     object-fit: cover;
 }
-/*#home{
-  background-image: url(images/home1.jpg);
-  min-height: 100vh;
-}*/
-
 
 
 /*----------about------------------------------------*/
-
-/*.about-content {
-    background-size: cover;
-    background-position: center top;
-}*/
-#about/*,#contact*/{
+#about {
     background-color: antiquewhite;
     min-height: 100vh;
 }
@@ -276,8 +242,6 @@ img{
     text-align: center;
     margin: 0;
 }
-
-
 .profile {
     display: flex;
     flex-direction: row;
@@ -290,15 +254,14 @@ img{
     list-style-type: none;
     color: teal;
 }
-.profile-list li{
-    font-size: 1rem;
-    
+.profile-list li {
+    font-size: 1rem;   
 }
 .icon {
     width: auto;
     height: auto;
 }
-.icon img{
+.icon img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -309,6 +272,7 @@ img{
     width: 80%;
 }
 
+
 /*----------------------WORKS----------------------*/
 #works {
     background-color: teal;
@@ -317,21 +281,18 @@ img{
 #works .sec-title {
     color: antiquewhite;
 }
-
 .portfolio {
     display: flex;
     justify-content: space-around;
-    /*flex-direction: row;*/
 }
 .portfolio-item {
-    /*border: 1px solid #ddd;*/
     width: 60%;
     height: auto;
     margin: 20px auto 0;
     transition-duration: 0.5s;
     color: antiquewhite;
 }
-.portfolio-img{
+.portfolio-img {
     width: 350px;
     height: 170px;
     cursor: pointer;
@@ -339,18 +300,18 @@ img{
 }
 .portfolio-title {
     font-size: 1.3rem;
-    /*argin-left: 25%;*/
     text-align: center;
 }
 .portfolio-list {
     list-style-type: none;
     font-size: 1rem;
 }
-.portfolio-img:hover{
+.portfolio-img:hover {
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     transform: translateY(-10px);
     transition-duration: 0.5s;
   }
+
 
 /*----------------------CONTACT----------------------*/
 #contact {
@@ -368,15 +329,16 @@ img{
     transform: scale(1,1);
     transition: .3s ease-in-out;/*移り変わる速さ*/
 }
-.item a:hover img{
+.item a:hover img {
     transform: scale(0.9);/*拡大の値*/
     opacity: 0.7;/*透過具合*/
 }
-.mask{
+.mask {
     display: block;
     line-height: 0;
     overflow: hidden;/*拡大してはみ出る要素を隠す*/
 }
+
 
 /*----------------------CONTACT2---------------------*/
 .header-logo {
@@ -390,18 +352,19 @@ img{
 }
 #contact2 {
     background-color: antiquewhite;
-    min-height: 100vh;
-  }
+    min-height: 100vh;  
+}
 
-  /*フォーム　*/
-form div{
+
+/*フォーム　*/
+form div {
     margin-bottom: 14px;
-  }
+}
 label {
     font-size: 1.125rem;
     margin-bottom: 10px;
     display: block;
-  }
+}
 input[type="text"],
 input[type="email"],
 textarea {
@@ -410,40 +373,40 @@ textarea {
     border-radius: 5px;
     padding: 10px;
     font-size: 1rem;
-  }
+}
 input[type="text"],
 input[type="email"] {
     width: 100%;
     max-width: 240px;
-  }
+}
 textarea {
     width: 100%;
     max-width: 480px;
     height: 6rem;
-  }
+}
 input[type="submit"] {
     border: none;
     cursor: pointer;
     line-height: 1;
-  }
+}
 .button {
     font-size: 1.375rem;
     background: teal;
     color: #fff;
     border-radius: 5px;
     padding: 18px 32px;
-  }
+}
 .button:hover {
     background:#004b83;
-  }
+}
 
 
 /*=============page top=========================*/
-#page-top a{
+#page-top a {
     display: flex;
-    justify-content:center;
-    align-items:center;
-    background:#942D2F;
+    justify-content: center;
+    align-items: center;
+    background: #942D2F;
     border-radius: 5px;
     width: 60px;
     height: 60px;
@@ -451,30 +414,27 @@ input[type="submit"] {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    font-size:0.6rem;
-    transition:all 0.3s;
-  }
-#page-top a:hover{
+    font-size: 0.6rem;
+    transition: all 0.3s;
+}
+#page-top a:hover {
     background: #777;
-  }
-
-  /*リンクを右下に固定*/
+}
+/*リンクを右下に固定*/
 #page-top {
     position: fixed;
     right: 10px;
     bottom:10px;
     z-index: 2;
-      /*はじめは非表示*/
+  /*はじめは非表示*/
     opacity: 0;
     transform: translateY(100px);
-  }
-
-  /*　上に上がる動き　*/
-
-#page-top.UpMove{
+}
+/*　上に上がる動き　*/
+#page-top.UpMove {
     animation: UpAnime 0.5s forwards;
-  }
-@keyframes UpAnime{
+}
+@keyframes UpAnime {
     from {
       opacity: 0;
       transform: translateY(100px);
@@ -483,14 +443,12 @@ input[type="submit"] {
       opacity: 1;
     transform: translateY(0);
     }
-  }
-
-  /*　下に下がる動き　*/
-
-#page-top.DownMove{
+}
+/*　下に下がる動き　*/
+#page-top.DownMove {
     animation: DownAnime 0.5s forwards;
-  }
-@keyframes DownAnime{
+}
+@keyframes DownAnime {
     from {
       opacity: 1;
       transform: translateY(0);
@@ -499,30 +457,35 @@ input[type="submit"] {
       opacity: 1;
     transform: translateY(100px);
     }
-  }
+}
+
+
 /*------------------footer--------------------------*/
-small{
-    background:#ffcc66;
-    color:#fff;
+small {
+    background: #ffcc66;
+    color: #fff;
     display: block;
     text-align: center;
-    padding:20px;
-  }
-#footer{
+    padding: 20px;
+}
+#footer {
     position: relative;
     z-index: 2;
-  }
+}
 
-  /*---------------------対応----------------------*/
-  @media (max-width: 600px){
-      .sec-title{
+
+/*---------------------対応----------------------*/
+@media (max-width: 600px) {
+      .sec-title {
           font-size: 2.5rem;
       }
+    
       /*----about------*/
       .profile {
           flex-direction: column;
           align-items: center;
       }
+    
       /*-----works----*/
       .portfolio {
           flex-direction: column;
@@ -535,16 +498,9 @@ small{
       .portfolio-img {
         width: 80%;
         height: 54%;
-        margin-left: 10%;/*20%*/
-        /*position: absolute;
-        top: 10%;
-        left: 50%;
-        -ms-transform: translate(-50%,-10%);
-        -webkit-transform: translate(-50%,-10%);
-        transform: translate(-50%,-10%);
-        margin: 0;
-        padding: 0;*/
+        margin-left: 10%;
       }
+    
       /*----contact2------*/
       #contact2 .page-title {
           margin-top: 40px;
@@ -554,7 +510,4 @@ small{
       textarea {
           max-width: 100%;
       }
-      
-
-
-  }/*@media*/
+}/*@media*/
