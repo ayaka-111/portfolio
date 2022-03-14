@@ -308,7 +308,7 @@ img {
     font-size: 1rem;
     text-align: left;
 }
-portfolio-list a {
+portfolio-list li a {
     color: antiquewhite;
 }
 .portfolio-img:hover {
