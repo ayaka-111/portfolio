@@ -298,15 +298,15 @@ img {
     height: 170px;
     cursor: pointer;
     /*margin-left: 22%;*/
-    text-align: center;
 }
 .portfolio-title {
     font-size: 1.3rem;
-    text-align: center;
+    /*text-align: center;*/
 }
 .portfolio-list {
     list-style-type: none;
     font-size: 1rem;
+    text-align: left;
 }
 .portfolio-img:hover {
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
