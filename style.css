@@ -490,6 +490,9 @@ small {
           flex-direction: column;
           align-items: center;
       }
+      .self {
+          width: 100%;
+      }
     
       /*-----works----*/
       .portfolio {
