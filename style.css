@@ -291,7 +291,7 @@ img {
     margin: 20px auto 0;
     transition-duration: 0.5s;
     color: antiquewhite;
-    
+    text-align: center;
 }
 .portfolio-img {
     width: 350px;
