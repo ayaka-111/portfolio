@@ -290,7 +290,7 @@ img {
     height: auto;
     margin: 20px auto 0;
     transition-duration: 0.5s;
-    color: antiquewhite;
+    
     text-align: center;
 }
 .portfolio-img {
@@ -307,6 +307,7 @@ img {
     list-style-type: none;
     font-size: 1rem;
     text-align: left;
+    color: antiquewhite;
 }
 .portfolio-img:hover {
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
