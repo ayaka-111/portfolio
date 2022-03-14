@@ -503,13 +503,12 @@ small {
           justify-content: center;
       }
       .portfolio-item {
-        width: 80%;
-        /*position: relative;*/
+        width: 100%;
       }
       .portfolio-img {
         width: 80%;
         height: 54%;
-        margin-left: 10%;
+        /*margin-left: 10%;*/
       }
     
       /*----contact2------*/
