@@ -95,7 +95,6 @@ img {
     height: 1px;
     background-color: #111;
     transition: all .6s;
-    z-index: 300;
 }
 .ham-line-1 {
     top: 14px;
