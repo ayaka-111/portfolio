@@ -150,7 +150,7 @@ img {
 .scrolldown {
     /*描画位置*/
     position: absolute;
-    bottom: 30%;
+    bottom: 1%;
     right: 50%;
     /*矢印の動き1秒かけて永遠にループ*/
     animation: arrowmove 1s ease-in-out infinite;
