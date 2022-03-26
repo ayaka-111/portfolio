@@ -15,7 +15,7 @@ img {
 }
 .wrapper {
     margin: 0 auto;
-    padding: 0 4%;
+    /*padding: 0 4%;*/
 }
 /*========= LoadingのためのCSS ===============*/
 /* Loading背景画面設定　*/
@@ -150,7 +150,7 @@ img {
 .scrolldown {
     /*描画位置*/
     position: absolute;
-    bottom: 0.5%;
+    bottom: 2%;
     right: 50%;
     /*矢印の動き1秒かけて永遠にループ*/
     animation: arrowmove 1s ease-in-out infinite;
