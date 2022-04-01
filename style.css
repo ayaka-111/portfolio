@@ -355,6 +355,10 @@ h1 img {
 
 
 /*----------------------CONTACT2---------------------*/
+#contact2 h1 {
+    padding: 0;
+    margin: 0;
+}
 .header-logo {
     width: 60px;
     margin-top: 14px;
@@ -368,11 +372,11 @@ h1 img {
     background-color: antiquewhite;
     min-height: 100vh;  
 }
-.contact-content {
-    text-align: center;
-}
 
 /*フォーム　*/
+form {
+    margin: 5% 10%
+}
 form div {
     margin-bottom: 14px;
 }
