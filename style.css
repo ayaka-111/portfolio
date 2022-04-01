@@ -247,14 +247,13 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 10%;
+    padding: 5% 10%;
     gap: 5%;
-    padding-top: 3%;
 }
 .profile-list {
     list-style-type: none;
     color: teal;
-    width: 70%;
+    width: 60%;
     padding-left: 0;
 }
 .profile-list li {
