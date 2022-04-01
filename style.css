@@ -254,14 +254,15 @@ img {
 .profile-list {
     list-style-type: none;
     color: teal;
+    width: 80%;
 }
 .profile-list li {
     font-size: 1rem;   
 }
-.icon {
+/*.icon {
     width: auto;
     height: auto;
-}
+}*/
 .icon img {
     width: 300px;
     height: 300px;
@@ -269,9 +270,9 @@ img {
     object-fit: cover;
     object-position: 36% 54%;
 }
-.self {
+/*.self {
     width: 80%;
-}
+}*/
 
 
 /*----------------------WORKS----------------------*/
@@ -493,10 +494,11 @@ small {
       }
       .profile-list {
           padding-left: 0;
-      }
-      .self {
           width: 100%;
       }
+      /*.self {
+          width: 100%;
+      }*/
     
       /*-----works----*/
       .portfolio {
