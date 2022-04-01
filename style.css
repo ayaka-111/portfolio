@@ -202,7 +202,7 @@ h1 img {
     height: 50px;
     background: #eee;
 }
-.home-content {
+#home {
     text-align: center;
     display: flex;
     flex-direction: column;
