@@ -255,6 +255,7 @@ img {
     list-style-type: none;
     color: teal;
     width: 80%;
+    padding-left: 0;
 }
 .profile-list li {
     font-size: 1rem;   
