@@ -362,6 +362,7 @@ h1 img {
 .header-logo {
     width: 60px;
     margin-top: 14px;
+    margin-left: 10px;
 }
 .page-title {
     color: teal;
