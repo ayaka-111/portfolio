@@ -235,8 +235,8 @@ h1 img {
     font-family: "Philosopher", serif;
     text-transform: uppercase;
     font-weight: bold;
-    display: block;
-    
+    display: flex;
+    flex-direction: column;
 }
 .en {
     font-size: 3rem;
