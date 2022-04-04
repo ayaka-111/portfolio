@@ -343,8 +343,9 @@ h1 img {
 
 /*----------------------CONTACT----------------------*/
 #contact {
-  background-color: antiquewhite;
-  min-height: 350px;
+    background-color: antiquewhite;
+    min-height: 350px;
+    margin-bottom: 10%;
 }
 .item-box {
     display: flex;
@@ -508,7 +509,6 @@ small {
 #footer {
     position: relative;
     z-index: 2;
-    margin-top: 5%;
 }
 
 
