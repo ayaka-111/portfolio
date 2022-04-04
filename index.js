@@ -45,10 +45,10 @@ function toggleNav() {
 
 //#works
 $(function(){
-    $('.portfolio-item').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+    $('.inview-balloon').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
         if(isInView){
         // 要素が表示されたらクラスを追加
-        $(this).stop().addClass('portfolio-item');
+        $(this).stop().addClass('balloon');
         }
     });
 });
