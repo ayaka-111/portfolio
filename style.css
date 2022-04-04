@@ -345,7 +345,7 @@ h1 img {
 #contact {
     background-color: antiquewhite;
     min-height: 350px;
-    margin-bottom: 10%;
+    padding-bottom: 5%;
 }
 .item-box {
     display: flex;
