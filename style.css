@@ -335,8 +335,8 @@ h1 img {
 .item-box {
     display: flex;
     justify-content: center;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin: 10%;
+    text-align: center;
 }
 .contact-icon {
     width: 30%;
