@@ -328,7 +328,7 @@ h1 img {
 }
 /*アニメーション*/
 .portfolio-item {
-    animation: balloon 0.5s ease-out 0s 1 forwards;
+    animation: portfolio-item 0.5s ease-out 0s 1 forwards;
 }
 @keyframes portfolio-item {
   0% {
