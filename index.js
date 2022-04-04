@@ -43,6 +43,16 @@ function toggleNav() {
     window.setInterval(change_main_vidual_background, 5000);
 
 
+//#works
+$(function(){
+    $('.portfolio-item').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+        if(isInView){
+        // 要素が表示されたらクラスを追加
+        $(this).stop().addClass('portfolio-item');
+        }
+    });
+});
+
 
 //page top
  //スクロールした際の動きを関数でまとめる
