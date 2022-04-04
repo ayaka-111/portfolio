@@ -168,7 +168,7 @@ h1 img {
     /*描画位置*/
     position: absolute;
     left: -20px;
-    bottom: ;
+    bottom: 0;
     /*テキストの形状*/
     color: #eee;
     font-size: 1rem;
