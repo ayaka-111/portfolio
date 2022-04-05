@@ -304,10 +304,9 @@ h1 img {
     color: antiquewhite;
     text-align: center;
     opacity: 0;
-    background-color: darkseagreen;
+    background-color: cadetblue;
     border-radius: 20px;
-    border: #ffcc66;
-    padding: 3px;
+    padding: 5px;
 }
 .portfolio-img {
     width: 350px;
