@@ -517,47 +517,48 @@ small {
 
 /*---------------------対応----------------------*/
 @media (max-width: 600px) {
-      .sec-title {
-          font-size: 2.5rem;
-      }
+    .sec-title {
+        font-size: 2.5rem;
+    }
     
-      /*----about------*/
-      .profile {
-          flex-direction: column;
-          align-items: center;
-      }
-      .profile-list {
-          padding-left: 0;
-          width: 100%;
-      }
-      /*.self {
-          width: 100%;
-      }*/
-    
-      /*-----works----*/
-      .portfolio {
-          flex-direction: column;
-          justify-content: center;
-      }
-      .portfolio-item {
+   /*----about------*/
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-list {
+        padding-left: 0;
         width: 100%;
-      }
-      .portfolio-list {
-          padding-left: 0;
-      }
-      .portfolio-img {
+    }
+    
+   /*-----works----*/
+    .portfolio {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .portfolio-item {
+        width: 100%;
+    }
+    .portfolio-list {
+        padding-left: 0;
+    }
+    .portfolio-img {
         width: 80%;
         height: 54%;
-        /*margin-left: 10%;*/
-      }
+    }
     
-      /*----contact2------*/
-      #contact2 .page-title {
-          margin-top: 40px;
-      }
-      input[type="text"],
-      input[type="email"],
-      textarea {
-          max-width: 100%;
-      }
+    /*-----contact------*/
+    .item-box {
+        flex-direction: column;
+    }
+    
+    /*----contact2------*/
+    #contact2 .page-title {
+        margin-top: 40px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        max-width: 100%;
+    }
 }/*@media*/
