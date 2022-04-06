@@ -549,7 +549,7 @@ small {
     
     /*-----contact------*/
     .item-box {
-        flex-direction: column;
+       flex-wrap: wrap;
     }
     
     /*----contact2------*/
