@@ -549,7 +549,10 @@ small {
     
     /*-----contact------*/
     .item-box {
-       flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .item {
+        width: 100px;
     }
     
     /*----contact2------*/
