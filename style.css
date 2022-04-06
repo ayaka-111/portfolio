@@ -547,14 +547,6 @@ small {
         height: 54%;
     }
     
-    /*-----contact------*/
-    .item-box {
-        flex-wrap: wrap;
-    }
-    .item {
-        width: 150px;
-    }
-    
     /*----contact2------*/
     #contact2 .page-title {
         margin-top: 40px;
