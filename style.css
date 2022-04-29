@@ -552,8 +552,11 @@ small {
         margin-top: 40px;
     }
     input[type="text"],
-    input[type="email"],
+    input[type="email"] {
+        width: 100%;
+        max-width: 100px;
     textarea {
-        max-width: 100%;
+        width: 100%;
+        max-width: 200px;
     }
 }/*@media*/
