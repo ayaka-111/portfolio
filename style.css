@@ -371,8 +371,7 @@ h1 img {
     overflow: hidden;/*拡大してはみ出る要素を隠す*/
 }
 
-
-/*----------------------CONTACT2---------------------*/
+/*-----------------2page共通-----------------------------*/
 #contact2 h1 {
     padding: 0;
     margin: 0;
@@ -387,10 +386,11 @@ h1 img {
     text-align: center;
     font-size: 3rem;
 }
-#contact2 {
+.bg {
     background-color: antiquewhite;
     min-height: 100vh;  
 }
+/*----------------------CONTACT2---------------------*/
 .contact-content {
     text-align: center;
 }
