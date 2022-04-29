@@ -372,7 +372,7 @@ h1 img {
 }
 
 /*-----------------2page共通-----------------------------*/
-#contact2 h1 {
+.bg h1 {
     padding: 0;
     margin: 0;
 }
@@ -381,16 +381,26 @@ h1 img {
     margin-top: 14px;
     margin-left: 10px;
 }
-.page-title {
+/*----------------------各サイト----------------------------*/
+#works-box .page-title {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 3rem;
+}
+#works-box {
+    background-color: teal;
+    min-height: 100vh;  
+}
+/*----------------------CONTACT2---------------------*/
+#contact2 .page-title {
     color: teal;
     text-align: center;
     font-size: 3rem;
 }
-.bg {
+#contact2 {
     background-color: antiquewhite;
     min-height: 100vh;  
 }
-/*----------------------CONTACT2---------------------*/
 .contact-content {
     text-align: center;
 }
