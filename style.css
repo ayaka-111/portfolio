@@ -565,8 +565,9 @@ small {
     input[type="email"] {
         width: 100%;
         max-width: 120px;
+    }
     textarea {
         width: 100%;
-        max-width: 180px;
+        max-width: 150px;
     }
 }/*@media*/
