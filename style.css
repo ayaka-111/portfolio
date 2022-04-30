@@ -377,20 +377,115 @@ h1 img {
     margin: 0;
 }
 .header-logo {
-    width: 60px;
+    width: 45px;
     margin-top: 14px;
     margin-left: 10px;
 }
+.sub-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
 /*----------------------各サイト----------------------------*/
+.bg {
+    background-color: teal;
+}
 #works-box .page-title {
     color: antiquewhite;
     text-align: center;
     font-size: 3rem;
+    padding-top: 150px;
 }
-#works-box {
-    background-color: teal;
-    min-height: 100vh;  
+.works-content {
+    width: 70%;
 }
+/*--section(works-detail)--*/
+.works-detail {
+    margin-top: 8%;
+}
+.detail {
+    color: antiquewhite;
+    font-size: 1.2rem;
+    display: table-cell;
+}
+table {
+    width: 850px;
+    height: 250px;
+}
+tr {
+    text-align: left;
+}
+th {
+    font-weight: bold;
+}
+.works-design {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 5%;
+}
+.design {
+    width: 800px;
+    height: auto;
+}
+.design img {
+    width: 100%;
+}
+.phone-design {
+    width: 200px;
+    height: auto;
+}
+.phone-design img {
+    width: 100%;
+}
+.view-btn {
+    font-size: 1.375rem;
+    background: antiquewhite;
+    border-radius: 10px;
+    padding: 10px 26px;
+    width: 100px;
+    margin: 4% auto;
+}
+.view-btn a{
+    color: #432;/*#e0ce28,#c7b830*/
+}
+.view-btn:hover {
+    outline: 3px solid antiquewhite;
+    box-shadow: 0 0 0 8px antiquewhite;
+    background: teal;
+}
+/*--section(other)--*/
+.other {
+    padding: 3% 0;
+}
+#works-box h4 {
+    color: antiquewhite;
+    font-size: 2rem;
+    text-align: center;
+}
+.other-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.other-item  {
+    width: 450px;
+    height: auto;
+}
+.other-item img {
+    width: 100%;
+}
+.other-title {
+    color: antiquewhite;
+    text-align: center;
+}
+.other-item img:hover {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
+
 /*----------------------CONTACT2---------------------*/
 #contact2 .page-title {
     color: teal;
@@ -555,6 +650,28 @@ small {
     .portfolio-img {
         width: 80%;
         height: 54%;
+    }
+    
+    /*----各サイト----*/
+    table {
+        width: 100%;
+        height: auto;
+    }
+    .detail th,
+    .detail td {
+        width: 100%;
+        display: block;
+    }
+    .works-design {
+        flex-direction: column;
+        align-items: center;
+    }
+    .design {
+        width: 300px;
+        height: auto;
+    }
+    .other-item {
+        width: 300px;
     }
     
     /*----contact2------*/
