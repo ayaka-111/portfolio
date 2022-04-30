@@ -447,10 +447,10 @@ th {
     padding: 10px 26px;
     width: 100px;
     margin: 4% auto;
+    text-align: center;
 }
 .view-btn a{
     color: #432;
-    align-items: center;
 }
 .view-btn:hover {
     outline: 3px solid antiquewhite;
