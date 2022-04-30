@@ -449,7 +449,8 @@ th {
     margin: 4% auto;
 }
 .view-btn a{
-    color: #432;/*#e0ce28,#c7b830*/
+    color: #432;
+    text-align: center;
 }
 .view-btn:hover {
     outline: 3px solid antiquewhite;
