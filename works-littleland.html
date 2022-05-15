@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <meta name="description" content="Ayakaのポートフォリオサイト">
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="http://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googlapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+
+    <!--レスポンシブ　-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    </head>
+
+    <body>
+        <div id="works-box" class="bg">
+            <header class="sub-header wrapper">
+                <h1><a href="index.html"><img class="header-logo" src="images/logo.png"></a></h1>
+                <nav class="nav">
+                    <ul class="main-nav">
+                        <li class="main-list"><a href="#home">HOME</a></li>
+                        <li class="main-list"><a href="#about">ABOUT</a></li>
+                        <li class="main-list"><a href="#works">WORKS</a></li>
+                        <li class="main-list"><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="ham-menu" id="js-menu">
+                    <span class="ham-line ham-line-1"></span>
+                    <span class="ham-line ham-line-2"></span>
+                    <span class="ham-line ham-line-3"></span>
+                </div>
+                <div class="white-bg" id="js-white-bg"></div>
+            </header>
+
+            <div class="eachWorks-content wrapper">
+                <h2 class="page-title">Works</h2>
+                <section class="works-detail">
+                    <div class="detail">
+                        <table>
+                            <tr>
+                                <th>サイト名</th>
+                                <td>Little Land</td>
+                            </tr>
+                            <tr>
+                                <th>ターゲット</th>
+                                <td>海外旅行に行きたくても行けない方・Little Landについて知りたい方</td>
+                            </tr>
+                            <tr>
+                                <th>目的</th>
+                                <td>Little Landを知ってもらい、来園してもらう</td>
+                            </tr>
+                            <tr>
+                                <th>制作期間</th>
+                                <td>２週間</td>
+                            </tr>
+                            <tr>
+                                <th>使用言語など</th>
+                                <td>HTML/CSS/JavaScript</td>
+                            </tr>
+                        </table>
+
+                        <h3>comment</h3>
+                        <p class="comment">
+                            コロナ禍で海外旅行に行きたくても行けない方、金銭面や体力面で海外に行くことが難しい方に向けて海外の気分を味わってもらうことがコンセプトの施設のため、写真は海外をしっかり感じられるものを選びました。
+                            また、アニメーションを多く使用し、飽きずに施設について知ってもらえるようにしました。</p>
+                    </div>
+
+                    <div class="works-design">
+                        <div class="design">
+                            <img src="images/littleland.png" alt="littleland">
+                        </div>
+                        <div class="phone-design">
+                            <img src="images/littleland-phone.png" alt="littleland">
+                        </div>
+                    </div>
+                </section>
+
+                <div class="view-btn">
+                    <a href="https://ayaka-111.github.io/littleland/">view</a>
+                </div>
+
+                
+                <section class="other">
+                    <h4>Other Works</h4>
+                    <div class="other-box">
+                        <div class="other-item inview-balloon">
+                            <a href="works-miura.html"><img class="other-img" src="images/miura.png" alt="miura"></a>
+                            <p class="other-title">A camera in one hand〜三浦半島のphoto spot紹介〜</p>
+                        </div>
+                        <div class="other-item inview-balloon">
+                            <a href="works-motor.html"><img class="other-img" src="images/motor-corporation.png" alt="○△"></a>
+                            <p class="other-title">架空サイト(自動車会社HP)</p>
+                        </div>
+                        <div class="other-item inview-balloon">
+                            <a href="works-portfolio.html"><img class="other-img" src="images/portfolio.png" alt="Portfolio"></a>
+                            <p class="other-title">Portfolio</p>
+                        </div>
+                    </div><!--other-box-->
+                </section><!--other-->
+            </div><!-- /eachWorks-content wrapper -->
+        </div><!-- #works-box-->
+      
+        <footer id="footer">
+            <p id="page-top"><a href="#">Page Top</a></p>
+            <small>Ayaka</small>
+        </footer>
+     
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="jquery.inview.min.js"></script>
+        
+    </body>
+</html>
