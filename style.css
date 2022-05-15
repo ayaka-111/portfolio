@@ -293,6 +293,7 @@ h1 img {
 .portfolio {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 3% 5% 0 5%;
 }
 .portfolio-item {
